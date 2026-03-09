@@ -1,0 +1,13 @@
+{
+  "name": "BrainBase Docs",
+  "short_name": "BB Docs",
+  "description": "Documentation for BrainBase — a real brain for every AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0F",
+  "theme_color": "#0A0A0F",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
