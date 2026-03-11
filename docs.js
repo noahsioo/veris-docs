@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   window.copyInstall = function(btn) {
-    navigator.clipboard.writeText('npm install -g brainbase').then(() => {
+    navigator.clipboard.writeText('npm install -g veris').then(() => {
       btn.textContent = 'Copied!';
       btn.classList.add('copied');
       setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);

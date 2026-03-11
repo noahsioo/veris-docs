@@ -1,6 +1,6 @@
 [
-  {"title":"Home","description":"BrainBase Documentation — Your AI forgets everything. Give it a real brain.","url":"/","keywords":["brainbase","install","getting started","overview"]},
-  {"title":"Installation","description":"Get BrainBase running in under 30 seconds.","url":"/getting-started/installation.html","keywords":["install","npm","node","prerequisites","setup"]},
+  {"title":"Home","description":"Veris Documentation — Your AI forgets everything. Give it a real brain.","url":"/","keywords":["veris","install","getting started","overview"]},
+  {"title":"Installation","description":"Get Veris running in under 30 seconds.","url":"/getting-started/installation.html","keywords":["install","npm","node","prerequisites","setup"]},
   {"title":"Quick Start","description":"Initialize your brain and connect your AI providers.","url":"/getting-started/quick-start.html","keywords":["init","watcher","setup","wizard","configure"]},
   {"title":"First Session","description":"What happens behind the scenes in your first conversation.","url":"/getting-started/first-session.html","keywords":["first","session","thalamus","extraction","senses","learning"]},
   {"title":"CLI Reference","description":"All 14 commands to control your brain.","url":"/cli/","keywords":["cli","commands","search","list","hot","stats","add","forget","watcher","consolidate","verify","snapshot","dashboard","embed","init","status"]},
@@ -21,7 +21,7 @@
   {"title":"Hunger System","description":"The brain is hungry for knowledge. Gaps, curiosity, dopamine.","url":"/concepts/hunger.html","keywords":["hunger","curiosity","gaps","dopamine","questions"]},
   {"title":"Development Phases","description":"Child, Youth, Adult, Wise — how your brain matures.","url":"/concepts/development.html","keywords":["development","phases","child","youth","adult","wise","critical period"]},
   {"title":"Dashboard","description":"Interactive 3D brain visualization with health metrics.","url":"/dashboard/","keywords":["dashboard","3d","visualization","graph","health","metrics"]},
-  {"title":"Architecture","description":"100 TypeScript files. 18,000+ lines. File structure and tech stack.","url":"/architecture/","keywords":["architecture","structure","tech stack","sqlite","database","tables"]},
-  {"title":"All 92 Mechanisms","description":"Every neuroscience mechanism translated into code.","url":"/mechanisms/","keywords":["mechanisms","neuroscience","92","hebbian","synaptic","emotion","metacognition"]},
+  {"title":"Architecture","description":"102 TypeScript files. 18,600+ lines. File structure and tech stack.","url":"/architecture/","keywords":["architecture","structure","tech stack","sqlite","database","tables"]},
+  {"title":"All 124+ Mechanisms","description":"Every neuroscience mechanism translated into code.","url":"/mechanisms/","keywords":["mechanisms","neuroscience","124","hebbian","synaptic","emotion","metacognition"]},
   {"title":"Privacy & License","description":"100% local. Your data is yours. ELv2 license.","url":"/privacy/","keywords":["privacy","local","license","elv2","gdpr","data","security"]}
 ]

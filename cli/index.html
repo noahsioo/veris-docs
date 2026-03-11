@@ -8,29 +8,29 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="https://docs.brainbase.dev/cli/">
-<title>CLI Reference — BrainBase Docs</title>
-<meta property="og:title" content="CLI Reference — BrainBase Docs">
+<link rel="canonical" href="https://docs.veris.dev/cli/">
+<title>CLI Reference — Veris Docs</title>
+<meta property="og:title" content="CLI Reference — Veris Docs">
 <meta property="og:description" content="All 14 commands to control your brain.">
 <meta name="description" content="All 14 commands to control your brain.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://docs.brainbase.dev/cli/">
-<meta property="og:image" content="https://brainbase.dev/og.png">
+<meta property="og:url" content="https://docs.veris.dev/cli/">
+<meta property="og:image" content="https://veris.dev/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CLI Reference — BrainBase Docs">
+<meta name="twitter:title" content="CLI Reference — Veris Docs">
 <meta name="twitter:description" content="All 14 commands to control your brain.">
-<meta name="twitter:image" content="https://brainbase.dev/og.png">
+<meta name="twitter:image" content="https://veris.dev/og.png">
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
 <nav class="nav">
   <button class="nav-hamburger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg></button>
-  <a href="/" class="nav-logo"><svg viewBox="0 0 52 52" fill="none"><defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#glow)"><circle cx="26" cy="8" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><circle cx="10" cy="40" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><circle cx="42" cy="40" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><line x1="26" y1="8" x2="10" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/><line x1="26" y1="8" x2="42" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/><line x1="10" y1="40" x2="42" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/></g></svg><span>BrainBase <span class="nav-docs">Docs</span></span></a>
+  <a href="/" class="nav-logo"><svg viewBox="0 0 52 52" fill="none"><defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#glow)"><circle cx="26" cy="8" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><circle cx="10" cy="40" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><circle cx="42" cy="40" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><line x1="26" y1="8" x2="10" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/><line x1="26" y1="8" x2="42" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/><line x1="10" y1="40" x2="42" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/></g></svg><span>Veris <span class="nav-docs">Docs</span></span></a>
   <div class="nav-search" role="button" tabindex="0"><kbd>&thinsp;&#8984;K&thinsp;</kbd><span>Search docs...</span></div>
-  <a href="https://github.com/noahsioo/brainbase" class="nav-github" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+  <a href="https://github.com/noahsioo/veris" class="nav-github" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
 </nav>
 
 <div class="layout">
@@ -63,7 +63,7 @@
     <div class="sidebar-category">More</div>
     <a href="../dashboard/" class="sidebar-link">Dashboard</a>
     <a href="../architecture/" class="sidebar-link">Architecture</a>
-    <a href="../mechanisms/" class="sidebar-link">All 92 Mechanisms</a>
+    <a href="../mechanisms/" class="sidebar-link">All 124+ Mechanisms</a>
     <a href="../privacy/" class="sidebar-link">Privacy & License</a>
   </aside>
   <div class="sidebar-overlay"></div>
@@ -74,27 +74,27 @@
       <p class="page-desc" data-animate>All 14 commands to control your brain.</p>
 
       <!-- init -->
-      <h2 id="init" data-animate>brainbase init</h2>
+      <h2 id="init" data-animate>veris init</h2>
       <p data-animate>Interactive setup wizard. Detects installed AI providers, configures integrations, sets up your LLM for knowledge extraction, and creates the brain database.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase init</code></pre>
+        <pre><code><span class="prompt">$</span> veris init</code></pre>
       </div>
 
       <!-- status -->
-      <h2 id="status" data-animate>brainbase status</h2>
+      <h2 id="status" data-animate>veris status</h2>
       <p data-animate>Shows brain health at a glance — initialization state, database status, watcher state, connected providers, and core statistics (nodes, edges, patterns).</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase status</code></pre>
+        <pre><code><span class="prompt">$</span> veris status</code></pre>
       </div>
 
       <!-- search -->
-      <h2 id="search" data-animate>brainbase search</h2>
+      <h2 id="search" data-animate>veris search</h2>
       <p data-animate>Search the knowledge graph using spreading activation. Finds nodes matching your query and triggers connected memories — the same way thinking about "coffee" activates "morning" and "productivity".</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase search <span class="string">"typescript generics"</span></code></pre>
+        <pre><code><span class="prompt">$</span> veris search <span class="string">"typescript generics"</span></code></pre>
       </div>
       <div class="cmd-card" data-animate>
         <h3>Options</h3>
@@ -105,12 +105,12 @@
       </div>
 
       <!-- list -->
-      <h2 id="list" data-animate>brainbase list</h2>
+      <h2 id="list" data-animate>veris list</h2>
       <p data-animate>Shows recent memory nodes with their importance level, type, content snippet, creation date, and confidence score.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase list
-<span class="prompt">$</span> brainbase list <span class="flag">--type</span> preference <span class="flag">--limit</span> 10</code></pre>
+        <pre><code><span class="prompt">$</span> veris list
+<span class="prompt">$</span> veris list <span class="flag">--type</span> preference <span class="flag">--limit</span> 10</code></pre>
       </div>
       <div class="cmd-card" data-animate>
         <h3>Options</h3>
@@ -123,12 +123,12 @@
       </div>
 
       <!-- hot -->
-      <h2 id="hot" data-animate>brainbase hot</h2>
+      <h2 id="hot" data-animate>veris hot</h2>
       <p data-animate>Shows the most activated nodes right now and generates a context briefing — the same narrative your AI receives. Useful for understanding what the brain is "thinking about".</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase hot
-<span class="prompt">$</span> brainbase hot <span class="flag">--detail</span> MAXIMUM <span class="flag">--topic</span> <span class="string">"auth system"</span></code></pre>
+        <pre><code><span class="prompt">$</span> veris hot
+<span class="prompt">$</span> veris hot <span class="flag">--detail</span> MAXIMUM <span class="flag">--topic</span> <span class="string">"auth system"</span></code></pre>
       </div>
       <div class="cmd-card" data-animate>
         <h3>Options</h3>
@@ -141,20 +141,20 @@
       </div>
 
       <!-- stats -->
-      <h2 id="stats" data-animate>brainbase stats</h2>
+      <h2 id="stats" data-animate>veris stats</h2>
       <p data-animate>Detailed brain statistics — total nodes, edges, active nodes, patterns, sessions. Includes type breakdown with bar charts, edge type distribution, latest session info, and critical period indicator (shows if your brain has fewer than 20 sessions).</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase stats</code></pre>
+        <pre><code><span class="prompt">$</span> veris stats</code></pre>
       </div>
 
       <!-- add -->
-      <h2 id="add" data-animate>brainbase add</h2>
+      <h2 id="add" data-animate>veris add</h2>
       <p data-animate>Manually add knowledge to your brain. Useful for seeding important facts, preferences, or project context. Automatically links to existing related nodes.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase add <span class="string">"I prefer functional components over class components"</span>
-<span class="prompt">$</span> brainbase add <span class="string">"Project uses PostgreSQL"</span> <span class="flag">--type</span> fact <span class="flag">--importance</span> 0.9</code></pre>
+        <pre><code><span class="prompt">$</span> veris add <span class="string">"I prefer functional components over class components"</span>
+<span class="prompt">$</span> veris add <span class="string">"Project uses PostgreSQL"</span> <span class="flag">--type</span> fact <span class="flag">--importance</span> 0.9</code></pre>
       </div>
       <div class="cmd-card" data-animate>
         <h3>Options</h3>
@@ -171,29 +171,29 @@
       </div>
 
       <!-- forget -->
-      <h2 id="forget" data-animate>brainbase forget</h2>
+      <h2 id="forget" data-animate>veris forget</h2>
       <p data-animate>Delete specific memories from the knowledge graph. Searches for nodes matching the query and removes them permanently. GDPR-compliant — your right to be forgotten.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase forget <span class="string">"old project name"</span></code></pre>
+        <pre><code><span class="prompt">$</span> veris forget <span class="string">"old project name"</span></code></pre>
       </div>
 
       <!-- watcher -->
-      <h2 id="watcher" data-animate>brainbase watcher</h2>
+      <h2 id="watcher" data-animate>veris watcher</h2>
       <p data-animate>Control the background daemon that processes memories, runs consolidation cycles, and keeps the brain alive. Runs on HTTP port 7899.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase watcher start   <span class="comment"># Start the daemon</span>
-<span class="prompt">$</span> brainbase watcher stop    <span class="comment"># Stop the daemon</span>
-<span class="prompt">$</span> brainbase watcher status  <span class="comment"># Check status + LLM connection</span></code></pre>
+        <pre><code><span class="prompt">$</span> veris watcher start   <span class="comment"># Start the daemon</span>
+<span class="prompt">$</span> veris watcher stop    <span class="comment"># Stop the daemon</span>
+<span class="prompt">$</span> veris watcher status  <span class="comment"># Check status + LLM connection</span></code></pre>
       </div>
 
       <!-- consolidate -->
-      <h2 id="consolidate" data-animate>brainbase consolidate</h2>
+      <h2 id="consolidate" data-animate>veris consolidate</h2>
       <p data-animate>Trigger a manual consolidation cycle. Normally runs automatically every 6 hours. Prunes weak edges, promotes important nodes, merges duplicates, finds creative connections (REM-style), detects knowledge gaps, and distills clusters into schemas.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase consolidate
+        <pre><code><span class="prompt">$</span> veris consolidate
 <span class="output">Edges pruned:         12</span>
 <span class="output">Nodes promoted:        3</span>
 <span class="output">Nodes merged:          2</span>
@@ -203,11 +203,11 @@
       </div>
 
       <!-- verify -->
-      <h2 id="verify" data-animate>brainbase verify</h2>
+      <h2 id="verify" data-animate>veris verify</h2>
       <p data-animate>Run a 6-step brain integrity check. Validates config, database (15 tables), core nodes, hooks, signal strength, and spreading activation. Useful for debugging or after updates.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase verify
+        <pre><code><span class="prompt">$</span> veris verify
 <span class="output">[1/6] Config .............. OK</span>
 <span class="output">[2/6] Database (15 tables)  OK</span>
 <span class="output">[3/6] Core Nodes .......... OK</span>
@@ -217,12 +217,12 @@
       </div>
 
       <!-- snapshot -->
-      <h2 id="snapshot" data-animate>brainbase snapshot</h2>
+      <h2 id="snapshot" data-animate>veris snapshot</h2>
       <p data-animate>View the brain's growth over time. Shows a timeline of snapshots with node count, edge count, patterns, and top topics at each point.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase snapshot
-<span class="prompt">$</span> brainbase snapshot <span class="flag">--count</span> 20</code></pre>
+        <pre><code><span class="prompt">$</span> veris snapshot
+<span class="prompt">$</span> veris snapshot <span class="flag">--count</span> 20</code></pre>
       </div>
       <div class="cmd-card" data-animate>
         <h3>Options</h3>
@@ -233,12 +233,12 @@
       </div>
 
       <!-- dashboard -->
-      <h2 id="dashboard" data-animate>brainbase dashboard</h2>
+      <h2 id="dashboard" data-animate>veris dashboard</h2>
       <p data-animate>Launch the interactive 3D brain visualization in your browser. Shows the knowledge graph as a force-directed network with real-time activation levels, brain health metrics, and session history.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase dashboard
-<span class="prompt">$</span> brainbase dashboard <span class="flag">--port</span> 8080</code></pre>
+        <pre><code><span class="prompt">$</span> veris dashboard
+<span class="prompt">$</span> veris dashboard <span class="flag">--port</span> 8080</code></pre>
       </div>
       <div class="cmd-card" data-animate>
         <h3>Options</h3>
@@ -250,13 +250,13 @@
       </div>
 
       <!-- embed -->
-      <h2 id="embed" data-animate>brainbase embed</h2>
+      <h2 id="embed" data-animate>veris embed</h2>
       <p data-animate>Manage vector embeddings for hybrid search (spreading activation + semantic similarity). Uses text-embedding-3-small.</p>
       <div class="code-block" data-animate>
         <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><span class="code-lang">bash</span><button class="code-copy" onclick="copyCode(this)">Copy</button></div>
-        <pre><code><span class="prompt">$</span> brainbase embed status     <span class="comment"># Show embedding coverage %</span>
-<span class="prompt">$</span> brainbase embed backfill   <span class="comment"># Create embeddings for unembedded nodes</span>
-<span class="prompt">$</span> brainbase embed backfill <span class="flag">--batch</span> 50</code></pre>
+        <pre><code><span class="prompt">$</span> veris embed status     <span class="comment"># Show embedding coverage %</span>
+<span class="prompt">$</span> veris embed backfill   <span class="comment"># Create embeddings for unembedded nodes</span>
+<span class="prompt">$</span> veris embed backfill <span class="flag">--batch</span> 50</code></pre>
       </div>
       <div class="cmd-card" data-animate>
         <h3>Subcommands</h3>
@@ -285,8 +285,8 @@
       </div>
 
       <div class="footer">
-        <span>BrainBase &mdash; Built by <a href="https://brainbase.dev/noah.html" target="_blank" rel="noopener">Noah Sioly</a></span>
-        <div class="footer-links"><a href="https://github.com/noahsioo/brainbase" target="_blank" rel="noopener">GitHub</a><a href="https://brainbase.dev/blog/">Blog</a><a href="https://brainbase.dev">Website</a><a href="https://brainbase.dev/impressum.html">Impressum</a><a href="https://brainbase.dev/datenschutz.html">Datenschutz</a></div>
+        <span>Veris &mdash; Built by <a href="https://veris.dev/noah.html" target="_blank" rel="noopener">Noah Sioly</a></span>
+        <div class="footer-links"><a href="https://github.com/noahsioo/veris" target="_blank" rel="noopener">GitHub</a><a href="https://veris.dev/blog/">Blog</a><a href="https://veris.dev">Website</a><a href="https://veris.dev/impressum.html">Impressum</a><a href="https://veris.dev/datenschutz.html">Datenschutz</a></div>
       </div>
     </div>
 

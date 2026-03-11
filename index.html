@@ -8,20 +8,20 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="https://docs.brainbase.dev/">
-<title>BrainBase Docs</title>
-<meta property="og:title" content="BrainBase Docs">
+<link rel="canonical" href="https://docs.veris.dev/">
+<title>Veris Docs</title>
+<meta property="og:title" content="Veris Docs">
 <meta property="og:description" content="Your AI forgets everything. Give it a real brain.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://docs.brainbase.dev/">
-<meta property="og:image" content="https://brainbase.dev/og.png">
+<meta property="og:url" content="https://docs.veris.dev/">
+<meta property="og:image" content="https://veris.dev/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="BrainBase Docs">
+<meta name="twitter:title" content="Veris Docs">
 <meta name="twitter:description" content="Your AI forgets everything. Give it a real brain.">
-<meta name="twitter:image" content="https://brainbase.dev/og.png">
-<meta name="description" content="Your AI forgets everything. Give it a real brain. Documentation for BrainBase.">
+<meta name="twitter:image" content="https://veris.dev/og.png">
+<meta name="description" content="Your AI forgets everything. Give it a real brain. Documentation for Veris.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -30,13 +30,13 @@
   <button class="nav-hamburger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg></button>
   <a href="/" class="nav-logo">
     <svg viewBox="0 0 52 52" fill="none"><defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#glow)"><circle cx="26" cy="8" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><circle cx="10" cy="40" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><circle cx="42" cy="40" r="5" fill="#00F0FF" stroke="#00F0FF" stroke-width="1"/><line x1="26" y1="8" x2="10" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/><line x1="26" y1="8" x2="42" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/><line x1="10" y1="40" x2="42" y2="40" stroke="#00F0FF" stroke-width="1.5" opacity="0.5"/></g></svg>
-    <span>BrainBase <span class="nav-docs">Docs</span></span>
+    <span>Veris <span class="nav-docs">Docs</span></span>
   </a>
   <div class="nav-search" role="button" tabindex="0">
     <kbd>&thinsp;&#8984;K&thinsp;</kbd>
     <span>Search docs...</span>
   </div>
-  <a href="https://github.com/noahsioo/brainbase" class="nav-github" target="_blank" rel="noopener" aria-label="GitHub">
+  <a href="https://github.com/noahsioo/veris" class="nav-github" target="_blank" rel="noopener" aria-label="GitHub">
     <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
   </a>
 </nav>
@@ -75,7 +75,7 @@
     <div class="sidebar-category">More</div>
     <a href="dashboard/" class="sidebar-link">Dashboard</a>
     <a href="architecture/" class="sidebar-link">Architecture</a>
-    <a href="mechanisms/" class="sidebar-link">All 92 Mechanisms</a>
+    <a href="mechanisms/" class="sidebar-link">All 124+ Mechanisms</a>
     <a href="privacy/" class="sidebar-link">Privacy & License</a>
   </aside>
   <div class="sidebar-overlay"></div>
@@ -83,10 +83,10 @@
   <main class="main">
     <div class="content">
       <div class="home-hero" data-animate>
-        <h1>BrainBase Documentation</h1>
+        <h1>Veris Documentation</h1>
         <p class="page-desc">Your AI forgets everything. Give it a real brain.</p>
         <div class="home-install">
-          <span class="prompt">$</span> npm install -g brainbase
+          <span class="prompt">$</span> npm install -g veris
           <button onclick="copyInstall(this)">Copy</button>
         </div>
         <p class="home-providers">Works with Claude Code &middot; Cursor &middot; Windsurf &middot; Gemini &middot; Codex &middot; OpenClaw &middot; Aider &middot; any MCP client</p>
@@ -98,10 +98,10 @@
           <span class="code-lang">bash</span>
           <button class="code-copy" onclick="copyCode(this)">Copy</button>
         </div>
-        <pre><code><span class="prompt">$</span> npm install -g brainbase    <span class="comment"># Install globally</span>
-<span class="prompt">$</span> brainbase init              <span class="comment"># Setup wizard — detects your AIs, configures everything</span>
-<span class="prompt">$</span> brainbase watcher start     <span class="comment"># Start the background brain daemon</span>
-<span class="comment"># That's it. Use your AI normally. BrainBase runs silently.</span></code></pre>
+        <pre><code><span class="prompt">$</span> npm install -g veris    <span class="comment"># Install globally</span>
+<span class="prompt">$</span> veris init              <span class="comment"># Setup wizard — detects your AIs, configures everything</span>
+<span class="prompt">$</span> veris watcher start     <span class="comment"># Start the background brain daemon</span>
+<span class="comment"># That's it. Use your AI normally. Veris runs silently.</span></code></pre>
       </div>
 
       <div class="home-cards" data-animate style="--delay:0.2s">
@@ -119,17 +119,17 @@
         </a>
         <a href="concepts/overview.html" class="home-card">
           <div class="home-card-title">How It Works</div>
-          <div class="home-card-desc">The brain behind it. 92 neuroscience mechanisms in code.</div>
+          <div class="home-card-desc">The brain behind it. 124+ neuroscience mechanisms in code.</div>
         </a>
       </div>
 
-      <h2 data-animate style="--delay:0.3s">What is BrainBase?</h2>
+      <h2 data-animate style="--delay:0.3s">What is Veris?</h2>
 
       <p data-animate style="--delay:0.35s">Every AI starts from zero. Every session. Every time. You explain the same architecture three times this week — and tomorrow it asks what framework you use.</p>
 
-      <p data-animate style="--delay:0.4s"><strong>BrainBase is a real brain for every AI.</strong> Not a vector database. Not RAG. Not a markdown file you manually maintain. It's 92 neuroscience mechanisms — how the human brain stores, retrieves, connects, and strengthens memories — translated into 18,000 lines of TypeScript.</p>
+      <p data-animate style="--delay:0.4s"><strong>Veris is a real brain for every AI.</strong> Not a vector database. Not RAG. Not a markdown file you manually maintain. It's 124+ neuroscience mechanisms — how the human brain stores, retrieves, connects, and strengthens memories — translated into 18,600+ lines of TypeScript.</p>
 
-      <p data-animate style="--delay:0.45s">The AI you use (Claude Code, Cursor, Gemini — any of them) is just the mouth. It produces words. The <strong>brain</strong> behind it? That's BrainBase. Same personality, same memories, same knowledge — no matter which AI you talk through. Switch tools mid-project. BrainBase doesn't care. It knows you.</p>
+      <p data-animate style="--delay:0.45s">The AI you use (Claude Code, Cursor, Gemini — any of them) is just the mouth. It produces words. The <strong>brain</strong> behind it? That's Veris. Same personality, same memories, same knowledge — no matter which AI you talk through. Switch tools mid-project. Veris doesn't care. It knows you.</p>
 
       <div class="code-block" data-animate style="--delay:0.5s">
         <div class="code-header">
@@ -139,7 +139,7 @@
         <pre><code>You talk to any AI
        |
        v
-  [ BrainBase ]
+  [ Veris ]
        |
   +--------+--------+--------+
   |        |        |        |
@@ -160,9 +160,9 @@ Thalamus  Senses  Emotion  Memory
       </div>
 
       <div class="home-stats" data-animate style="--delay:0.55s">
-        <span>92 mechanisms</span>
+        <span>124+ mechanisms</span>
         <span><span class="dot"></span></span>
-        <span>18,000 lines</span>
+        <span>18,600+ lines</span>
         <span><span class="dot"></span></span>
         <span>100% local</span>
         <span><span class="dot"></span></span>
@@ -170,10 +170,10 @@ Thalamus  Senses  Emotion  Memory
       </div>
 
       <div class="footer">
-        <span>BrainBase &mdash; Built by <a href="https://brainbase.dev/noah.html" target="_blank" rel="noopener">Noah Sioly</a></span>
+        <span>Veris &mdash; Built by <a href="https://veris.dev/noah.html" target="_blank" rel="noopener">Noah Sioly</a></span>
         <div class="footer-links">
-          <a href="https://github.com/noahsioo/brainbase" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://brainbase.dev/blog/">Blog</a><a href="https://brainbase.dev">Website</a><a href="https://brainbase.dev/impressum.html">Impressum</a><a href="https://brainbase.dev/datenschutz.html">Datenschutz</a>
+          <a href="https://github.com/noahsioo/veris" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://veris.dev/blog/">Blog</a><a href="https://veris.dev">Website</a><a href="https://veris.dev/impressum.html">Impressum</a><a href="https://veris.dev/datenschutz.html">Datenschutz</a>
         </div>
       </div>
     </div>
